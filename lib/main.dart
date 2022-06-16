@@ -37,7 +37,7 @@ class _MyHomePageState extends State<MyHomePage> {
       appBar: AppBar(title: Text('my meals'),
 
       ),
-      body: Center(
+      body:  const Center(
         child:  Text('MY BUDDY GUY '),
       ),
 
