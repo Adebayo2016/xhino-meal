@@ -10,6 +10,7 @@ class CategoryScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(title: const Text('my Meal'),),
       body: GridView(
+        padding: const EdgeInsets.all(25),
         gridDelegate: const SliverGridDelegateWithMaxCrossAxisExtent(
           maxCrossAxisExtent: 200,
           childAspectRatio: 3 / 2,
