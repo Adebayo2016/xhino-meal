@@ -5,6 +5,13 @@ class CategoryMealsScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Scaffold(
+      appBar: AppBar(
+        title:  const Text('meal cat'),
+      ),
+      body: Center(
+        child: Text('this is the title'),
+      ),
+    );
   }
 }
