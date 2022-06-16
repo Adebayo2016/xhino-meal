@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:practice1/categories_screen.dart';
 
 
 void main() {
@@ -17,7 +18,7 @@ class HomePage extends StatelessWidget {
     return MaterialApp(
       title: 'My Delicious food',
       theme: ThemeData(primarySwatch: Colors.blue),
-      home: MyHomePage(),
+      home: CategoryScreen(),
     );
   }
 
