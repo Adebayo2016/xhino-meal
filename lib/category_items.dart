@@ -5,8 +5,8 @@ class CategoryItem extends StatelessWidget {
   final String title;
   final Color color;
 
+  
   void SelectedCategory (){
-
 }
   CategoryItem(this.title, this.color);
 
