@@ -50,4 +50,9 @@ Category(
     color: Colors.pink,
   ),
 
+  Category(
+    id: 'c10',
+    title: 'Summer',
+    color: Colors.teal,
+  ),
 ];
