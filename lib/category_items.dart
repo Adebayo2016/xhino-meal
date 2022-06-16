@@ -1,8 +1,14 @@
 
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
 class CategoryItem extends StatelessWidget {
-  const CategoryItem({Key? key}) : super(key: key);
+
+
+  final String title;
+  final String color;
+
+  CategoryItem(this.title, this.color);
 
   @override
   Widget build(BuildContext context) {
