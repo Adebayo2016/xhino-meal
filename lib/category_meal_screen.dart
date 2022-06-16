@@ -9,8 +9,8 @@ class CategoryMealsScreen extends StatelessWidget {
       appBar: AppBar(
         title:  const Text('meal cat'),
       ),
-      body: Center(
-        child: Text('this is the title'),
+      body:  const Center(
+        child:   Text('this is the title'),
       ),
     );
   }
