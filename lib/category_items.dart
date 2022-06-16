@@ -6,14 +6,15 @@ class CategoryItem extends StatelessWidget {
   final Color color;
 
 
-  void SelectedCategory (){
+  void SelectedCategory (BuildContext ctx){
+    Navigator.of(ctx);
 }
   CategoryItem(this.title, this.color);
 
   @override
   Widget build(BuildContext context) {
     return InkWell(
-      onTap: SelectedCategory,
+      onTap:() => SelectedCategory(context),
       borderRadius: BorderRadius.circular(15),
       child: Container(
         padding: const EdgeInsets.all(15),
