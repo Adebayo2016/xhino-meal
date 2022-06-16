@@ -13,10 +13,7 @@ class CategoryScreen extends StatelessWidget {
       crossAxisSpacing:20,
 
       ),
-
-
-
-      children: [],
+      children:[],
     );
   }
 }

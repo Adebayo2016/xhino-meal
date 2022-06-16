@@ -20,9 +20,10 @@ class CategoryItem extends StatelessWidget {
         ],
             begin: Alignment.topLeft,
             end:Alignment.bottomRight,
-
-      )
       ),
+        borderRadius: BorderRadius.circular(17),
+      ),
+
     );
   }
 }
