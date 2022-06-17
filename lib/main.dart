@@ -12,14 +12,12 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     // TODO: implement build
 
-
     return MaterialApp(
       title: 'My Delicious food',
       theme: ThemeData(primarySwatch: Colors.blue),
       home: CategoryScreen(),
     );
   }
-
 }
 
 class MyHomePage extends StatefulWidget {
@@ -32,13 +30,12 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
     // TODO: implement build
     return Scaffold(
-      appBar: AppBar(title: Text('my meals'),
-
+      appBar: AppBar(
+        title: Text('my meals'),
       ),
-      body:  const Center(
-        child:  Text('MY BUDDY GUY '),
+      body: const Center(
+        child: Text('MY BUDDY GUY '),
       ),
-
     );
   }
 }
