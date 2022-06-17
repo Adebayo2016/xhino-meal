@@ -1,11 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:practice1/categories_screen.dart';
 
-
 void main() {
   runApp(HomePage());
 }
-
 
 class HomePage extends StatelessWidget {
   const HomePage({Key? key}) : super(key: key);
@@ -21,7 +19,6 @@ class HomePage extends StatelessWidget {
       home: CategoryScreen(),
     );
   }
-
 
 }
 
