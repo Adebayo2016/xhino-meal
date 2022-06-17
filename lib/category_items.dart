@@ -20,6 +20,7 @@ class CategoryItem extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return InkWell(
+
       onTap:() => SelectedCategory(context),
       borderRadius: BorderRadius.circular(15),
       child: Container(
