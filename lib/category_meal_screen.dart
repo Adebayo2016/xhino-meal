@@ -4,6 +4,7 @@ class CategoryMealsScreen extends StatelessWidget {
 //  const CategoryMealsScreen({Key? key}) : super(key: key);
   final String CategoryId;
   final String title;
+
   CategoryMealsScreen(this.CategoryId, this.title,
       {Key? key}) : super(key: key);
   @override
