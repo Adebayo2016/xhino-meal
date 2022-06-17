@@ -5,7 +5,6 @@ class CategoryMealsScreen extends StatelessWidget {
   final String CategoryId;
   final String title;
   CategoryMealsScreen(this.CategoryId, this.title);
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
