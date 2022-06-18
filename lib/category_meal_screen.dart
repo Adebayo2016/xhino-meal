@@ -16,7 +16,7 @@ class CategoryMealsScreen extends StatelessWidget {
         title:  const Text('meal cat'),
       ),
       body:  const Center(
-        child:   Text('this is the title'),
+        child:   Text('this is the title of the thing'),
       ),
     );
   }
