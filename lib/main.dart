@@ -12,12 +12,11 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
 
-    // TODO: implement build
 
     return MaterialApp(
       title: 'My Delicious food',
       theme: ThemeData(primarySwatch: Colors.blue),
-      
+
       home: CategoryScreen(),
       routes: {
         '/category-meal': (ctx)=> const  CategoryMealsScreen(title: '', CategoryId: '',),
