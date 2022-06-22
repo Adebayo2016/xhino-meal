@@ -16,8 +16,7 @@ class HomePage extends StatelessWidget {
       theme: ThemeData(primarySwatch: Colors.blue),
       home: CategoryScreen(),
       routes: {
-        '/category-meal': (ctx) => CategoryMealsScreen(
-        ),
+        '/category-meal': (ctx) => CategoryMealsScreen(),
       },
     );
   }
