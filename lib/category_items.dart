@@ -20,7 +20,7 @@ class CategoryItem extends StatelessWidget {
   Widget build(BuildContext context) {
     // TODO: implement build
     throw UnimplementedError();
-  };
+  }
 }
 
 
