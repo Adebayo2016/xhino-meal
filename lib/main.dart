@@ -17,7 +17,7 @@ class HomePage extends StatelessWidget {
       home: CategoryScreen(),
       routes: {
         '/category-meal': (ctx) => CategoryMealsScreen(
-            ),
+        ),
       },
     );
   }
