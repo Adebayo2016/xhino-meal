@@ -3,7 +3,7 @@ import 'package:practice1/categories_screen.dart';
 import 'package:practice1/category_meal_screen.dart';
 
 void main() {
-  runApp(HomePage());
+  runApp(const HomePage());
 }
 
 class HomePage extends StatelessWidget {
