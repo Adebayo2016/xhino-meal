@@ -18,17 +18,8 @@ class CategoryItem extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // TODO: implement build
-    throw UnimplementedError();
-  }
-}
-
-
-  @override
-  Widget build(BuildContext context) {
     return InkWell(
-
-      onTap:() => SelectedCategory(context),
+      onTap:() => SelectedCategory,
 
       borderRadius: BorderRadius.circular(15),
       child: Container(
