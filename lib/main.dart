@@ -14,7 +14,7 @@ class HomePage extends StatelessWidget {
     return MaterialApp(
       title: 'My Delicious food',
       theme: ThemeData(primarySwatch: Colors.blue),
-      home: CategoryScreen(),
+
       routes: {
         '/category-meal': (ctx) => CategoryMealsScreen(),
       },
