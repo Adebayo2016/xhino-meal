@@ -21,7 +21,6 @@ class HomePage extends StatelessWidget {
       routes: {
         '/category-meal': (ctx)=> const  CategoryMealsScreen(title: '', CategoryId: '',),
 
-
       },
 
     );
