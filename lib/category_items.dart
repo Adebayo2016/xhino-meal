@@ -11,9 +11,16 @@ class CategoryItem extends StatelessWidget {
   CategoryItem(this.id,this.title, this.color);
 
   void SelectedCategory (BuildContext ctx){
-    Navigator.of(ctx).push(MaterialPageRoute(builder: (_){
-      return  CategoryMealsScreen(id, title);
-    }));
+    Navigator.of(ctx).pushNamed('/category-meal',arguments: {
+      'id':id,
+      'title':title});
+    }
+
+  @override
+  Widget build(BuildContext context) {
+    // TODO: implement build
+    throw UnimplementedError();
+  };
 }
 
 
